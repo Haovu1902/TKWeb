@@ -1,0 +1,620 @@
+/* reset css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*  */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+  margin-bottom: 200px;
+}
+
+.main-content {
+  margin-top: 10px;
+  border: 1px dashed rgb(210, 210, 210);
+  padding: 20px;
+}
+
+
+
+/* lxq - trang sinhvien, giangvien, monhoc */
+
+div.search-item {
+    width: 30%;
+}
+
+div.select-item {
+    float: right;
+}
+
+div.select-item select {
+    color: gray;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    height: 20px;
+}
+
+div.select-item-left select {
+    height: 28px;
+}
+
+div.select-item-left button.btn-default {
+    background-color: rgb(243, 243, 243);
+    border-color: gray;
+    border-radius: 10px;
+}
+
+div.select-item-left button.btn-default:hover {
+    background-color: rgb(191, 230, 255);
+}
+
+div.container-table {
+    margin: 50px 0;
+}
+
+div.button-item {
+    display: inline-block;
+}
+
+button.edit, button.remove {
+    border-radius: 15px;
+    background-color: rgb(243, 243, 243);
+    border-color: gray;
+}
+
+button.edit:hover, button.remove:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+button.edit a, button.remove a{
+    color: rgb(49, 41, 40);
+}
+
+button.edit a:hover, button.remove a:hover{
+    text-decoration: none;
+}
+
+div.add-item {
+    float: right;
+}
+
+div.button-item, div.add-item {
+  margin-bottom: 30px;
+}
+
+
+div.pagination-block ul.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+div.pagination-block ul.pagination li.active a{
+    background-color: rgb(236, 236, 236);
+    border-color: rgb(216, 216, 216);
+}
+
+div.pagination-block ul.pagination li a{
+    color: gray;
+}
+
+/* breadcrump style llist */
+div.breadcrumb-style ul li a {
+  color: rgb(100, 100, 100);
+}
+
+div.breadcrumb-style ul li:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+div.breadcrumb-style ul li a:hover {
+  text-decoration: none;
+  color: rgb(4, 38, 54);
+}
+
+/* vhh - trang header & footer */
+body {
+    margin-top: 150px;
+}
+
+.phandau {
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.demo {
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.demo h3 {
+    padding: 0;
+    margin: 0;
+    width: 600px;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 768px) {
+  .demo h3 {
+    font-size: large;
+    width: 200px;
+  }
+}
+
+.drop {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.drop .dropdown button.btn.btn-default.dropdown-toggle {
+  border: none;
+  font-weight: bold;
+}
+
+.drop .dropdown button.btn.btn-default.dropdown-toggle:hover {
+  background-color: #fff;
+}
+
+article {
+    display: inline-block;
+    padding: 0 40px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+article ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (min-width: 996px) {
+  footer {
+    text-align: center;
+  }
+}
+
+.phancuoi1 {
+    background: #f5f5f5;
+}
+
+.phancuoi1 article p {
+    color: rgb(65, 65, 65);
+}
+
+.phancuoi1 article ul li a {
+    color: rgb(65, 65, 65);
+}
+
+.phancuoi1 article ul li a:hover {
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+}
+
+.phancuoi2 {
+    border-top: 1px solid rgb(138, 138, 138);
+    background: #f5f5f5;
+}
+
+.phancuoi2 p {
+    text-align: center;
+    line-height: 70px;
+    height: 70px;
+}
+
+/* nth - menu left */
+.menu-left .navbar-left {
+  padding: 0;
+  position: relative;
+  margin: 0;
+}
+.menu-left .right {
+  padding: 0;
+}
+.menu-left .navbar {
+  width: 20%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 0px;
+  position: fixed;
+  top: 100px;
+  margin-top: 10px;
+}
+.menu-left .navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-left .navbar ul li a,
+label {
+  color: rgb(100, 100, 100);
+  line-height: 40px;
+  display: block;
+  text-decoration: none;
+  margin: 0px;
+  padding-left: 30px;
+  font-size: 18px;
+  border-radius: 2px;
+}
+.menu-left .navbar ul li a.dlink,
+.menu-left .navbar ul li a.sv-link,
+#input2,
+#item-input {
+  display: none;
+}
+.menu-left .navbar ul .menu-diem,
+.menu-left .navbar ul .menu-sv {
+  max-height: 0px;
+  overflow: hidden;
+}
+.menu-left .navbar #item-input:checked ~ .menu-diem,
+.menu-left .navbar #input2:checked ~ .menu-sv {
+  max-height: 100%;
+}
+.menu-left .navbar ul li.item a {
+  padding-left: 25px;
+  margin: 2px 20px 2px 30px;
+  border-radius: 20px;
+}
+.menu-left .navbar ul li a {
+  font-weight: bold;
+}
+.menu-left .navbar ul li a:hover,
+label:hover {
+  border-radius: 20px;
+  color: rgb(150, 150, 150);
+  background-color: rgb(230, 230, 230);
+}
+
+@media only screen and (min-width: 991px) {
+  .menu-left .navbar ul li a:hover,
+label:hover {
+    transform: translateX(20px);
+    transition: transform 0.4s;
+}
+}
+
+.menu-left .navbar #item-input:checked ~ label {
+  border-radius: 20px;
+  background-color: rgb(214, 214, 214);
+}
+label span {
+  padding-left: 5px;
+  font-size: 10px;
+}
+.menu-left li.home {
+  background-color: #3d3d3d;
+  border-radius: 20px;
+}
+
+.menu-left .navbar ul li.home a {
+  font-size: 25px;
+  color: rgb(221, 221, 221);
+}
+.menu-left .navbar ul li.home a:hover {
+  background-color: #3d3d3d;
+}
+.menu-left .navbar #check-collap {
+  margin-right: 100%;
+  margin-left: 5px;
+  line-height: 50px;
+  font-size: 25px;
+  padding: 0;
+  color: rgb(68, 68, 68);
+}
+.menu-left .navbar #exit-collap {
+  padding: 8px;
+  margin-left: 82%;
+  margin-bottom: 2px;
+}
+.menu-left #collap-input,
+#check-collap,
+#exit-collap {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .menu-left .navbar {
+    width: 0%;
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    top: 90px;
+    z-index:10;
+  }
+  .menu-left .navbar-left {
+    padding: 0;
+  }
+  .menu-left .navbar ul.navbar-menu {
+    position: absolute;
+    width: 200px;
+    height: 700px;
+    top: 48px;
+    left: -300px;
+    background-color: #fff;
+    border: 1px solid rgb(240, 240, 240);
+    margin: 0;
+    z-index: 1;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  .menu-left #check-collap,
+  .menu-left #exit-collap {
+    display: block;
+  }
+  .menu-left .navbar #collap-input:checked ~ .navbar-menu {
+    left: -1px;
+  }
+}
+
+.menu-left {
+  margin-top: -15px;
+}
+
+/* bvd - trang chủ */
+.students, .subjects, .room, .lecturers {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 10px;
+  overflow: hidden;
+  line-height: 200px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.right .row h3 {
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.students {
+  background-color: red;
+}
+
+.subjects {
+  background-color: coral;
+}
+
+.room {
+  background-color: deepskyblue;
+}
+
+.lecturers {
+  background-color: navajowhite;
+}
+
+.box-2 {
+  margin-top: 15px;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.right .row a:hover .page {
+  transform: translateY(-220px);
+  transition: 0.5s;
+}
+
+.add {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  height: 210px;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  line-height: 210px;
+  background-color: rgb(238, 130, 238);
+  overflow: hidden;
+}
+
+.search {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  height: 210px;
+  border: 1px solid black;
+  margin-left: 10px;
+  line-height: 210px;
+  background-color: rgb(211, 211, 211);
+  overflow: hidden;
+}
+
+.page-1 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.right .row a:hover .page-1 {
+  transform: translateY(-230px);
+  transition: 0.5s;
+}
+
+.map-1 {
+  width: 100%;
+  height: 440px;
+  border: 1px solid black;
+  border-radius: 20%;
+  margin-left: 10px;
+}
+
+.right .row a {
+  text-decoration: none !important;
+
+}
+
+.right .row a h3 {
+  color: #fff;
+  font-weight: bold;
+  padding-top: 80px;
+}
+
+/* pqd - them/sua/tim kiem sinh vien */
+
+.sua_sinh_vien .container__right1 {
+  float: left;
+  width: 30%;
+}
+
+.photo {
+    text-align: center;
+}
+
+.btn-edit-photo {
+  margin: -20px 0 20px 0;
+  border: 1px solid #777777;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: small;
+}
+
+.btn-edit-photo:hover {
+  background-color: #57595e;
+  color: rgb(233, 232, 232);
+  font-weight: bold;
+  transform:scale(1.4);
+  transition: transform 0.4s;
+}
+
+.sua_sinh_vien .dropdown ul.dropdown-menu{
+    border: none;
+}
+
+
+.sua_sinh_vien .container__right2 {
+  float: left;
+  width: 70%;
+}
+.sua_sinh_vien .container__right1--avt {
+  width: 250px;
+  height: 280px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+.main-content {
+  overflow: auto;
+}
+
+.container__right2--li {
+  list-style: none;
+  display: flex;
+  padding: 15px 0;
+  align-items: center;
+  width: 95%;
+}
+
+.container__right2--li p {
+  min-width: 100px;
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.container__right2--li input, .container__right2--li select {
+  width: 100%;
+  outline-color: #777;
+  padding: 4px 0;
+  text-indent: 5px;
+}
+
+.container__right2--li input:hover, .container__right2--li input:focus, .container__right2--li select:hover, .container__right2--li select:focus {
+  background-color: rgb(240, 240, 240);
+}
+
+.container__right2--radio {
+  width: 250px;
+}
+
+.container__right2--ul {
+  width: auto;
+}
+
+.container__right2--li .male, .container__right2--li .female {
+  display: inline-block;
+  width: 30px;
+}
+
+.container__right2--button {
+  justify-content: center;
+
+}
+
+.container__right2--li button {
+  padding: 5px 20px;
+  font-size: 16px;
+  background-color: rgb(230, 230, 230);
+  border: 1px solid rgb(153, 153, 153);
+  color: rgb(80, 80, 80);
+}
+
+.container__right2--li button:hover {
+  background-color: rgb(126, 126, 126);
+  border: 1px solid rgb(153, 153, 153);
+  color: rgb(235, 235, 235);
+}
+
+@media only screen and (max-width: 800px) {
+  .sua_sinh_vien .container__right1 {
+      display: flex;
+      width: 100%;
+      float: none;
+      justify-content: center;
+  }
+
+  .sua_sinh_vien .container__right2 {
+    display: flex;
+    width: 100%;
+    float: none;
+    justify-content: center;
+  }
+
+  .sua_sinh_vien .container__right1--avt {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px; 
+  }
+
+  .sua_sinh_vien .container__right2--li {
+    width: 265px;
+  }
+
+
+  .sua_sinh_vien .container__right2--li p {
+    min-width: 70px;
+  }
+
+  .sua_sinh_vien .container__right {
+    padding: 0 15px;
+  }
+ 
+}
